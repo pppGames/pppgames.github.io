@@ -1,0 +1,150 @@
+[
+  {
+    "id": "T001",
+    "name": "アドレナリン",
+    "type": "TACTICS",
+    "cost": 0,
+    "effects": [
+      {
+        "timing": "on_play",
+        "action": [
+          { "type": "draw", "count": 1 }
+        ]
+      },
+      {
+        "timing": "attack_boost",
+        "action": [
+          { "type": "add_next_attack_damage", "value": 40 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T002",
+    "name": "エナジーチャージャー",
+    "type": "TACTICS",
+    "cost": 0,
+    "effects": [
+      {
+        "timing": "on_play",
+        "action": [
+          { "type": "recover_pp", "count": 1 },
+          { "type": "draw", "count": 1 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T003",
+    "name": "救急キット",
+    "type": "TACTICS",
+    "cost": 0,
+    "effects": [
+      {
+        "timing": "on_play",
+        "action": [
+          {
+            "type": "heal_leader",
+            "target": "multiple",
+            "value_total": 80
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T004",
+    "name": "ストラテジックレーダー",
+    "type": "TACTICS",
+    "cost": 0,
+    "effects": [
+      {
+        "timing": "on_play",
+        "action": [
+          { "type": "draw", "count": 2 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T005",
+    "name": "ジャミングパルス",
+    "type": "TACTICS",
+    "cost": 1,
+    "effects": [
+      {
+        "timing": "on_play",
+        "action": [
+          { "type": "opponent_discard", "count": 2 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T006",
+    "name": "復活ポータル",
+    "type": "TACTICS",
+    "cost": 2,
+    "play_condition": {
+      "self_down_leaders_more_than_opponent": true
+    },
+    "effects": [
+      {
+        "timing": "on_play",
+        "action": [
+          {
+            "type": "revive_leader",
+            "target": "single"
+          },
+          {
+            "type": "trash_equipped_cards",
+            "target": "revived_leader",
+            "face_up": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T007",
+    "name": "ライトシールド",
+    "type": "TACTICS",
+    "cost": 0,
+    "effects": [
+      {
+        "timing": "apply_buff",
+        "action": [
+          { "type": "add_health", "value": 30 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T008",
+    "name": "ボディアーマー",
+    "type": "TACTICS",
+    "cost": 2,
+    "effects": [
+      {
+        "timing": "apply_buff",
+        "action": [
+          { "type": "add_health", "value": 40 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "T009",
+    "name": "特殊弾",
+    "type": "TACTICS",
+    "cost": 1,
+    "effects": [
+      {
+        "timing": "attack_boost",
+        "action": [
+          { "type": "add_next_attack_damage", "value": 80 }
+        ]
+      }
+    ]
+  }
+]

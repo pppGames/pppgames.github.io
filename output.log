@@ -1,0 +1,14 @@
+--- Initial State ---
+P1 Leaders: 橘ひなの(Red), Mondo(Red), nqrse(Green)
+P2 Leaders: Ras(Yellow), Mondo(Red), ありさか(Green)
+P1 Hand: [ '強さの証明' ]
+
+--- Playing Card A1016 ---
+Play Result: Success
+
+--- Pending Action Check ---
+Pending Action Type: SELECT_EFFECT_TARGET
+Pending Action Value: 10
+Pending Action ExcludeIndex: 1
+
+Condition 'green_leaders_1' Check: true

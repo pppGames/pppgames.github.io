@@ -1,0 +1,429 @@
+[
+  {
+    "id": "M001",
+    "name": "何も知らない",
+    "type": "MEMORIA",
+    "color": "Red",
+    "cost": 0,
+    "text": "【アタック強化】プレイエリアにメモリアカードが3枚以上あるなら、次のアタックのダメージ+30。（メモリアカードの数は【アタック強化】を実行するときに数える。）",
+    "leader": "うるか",
+    "damage_boost": 0,
+    "conditional_boost": 30
+  },
+  {
+    "id": "M002",
+    "name": "新たなる場所へ",
+    "type": "MEMORIA",
+    "color": "Red",
+    "cost": 1,
+    "text": "【アタック強化】次のアタックのダメージ+30 【アタック後】対戦相手の他のリーダーすべてに10ダメージ",
+    "leader": "小森めと",
+    "damage_boost": 30
+  },
+  {
+    "id": "M003",
+    "name": "笑ってはいけない",
+    "type": "MEMORIA",
+    "color": "Red",
+    "cost": 1,
+    "text": "【アタック強化】次のアタックのダメージ+60",
+    "leader": "橘ひなの",
+    "damage_boost": 60
+  },
+  {
+    "id": "M004",
+    "name": "副音声",
+    "type": "MEMORIA",
+    "color": "Red",
+    "cost": 1,
+    "text": "【プレイ時】カードを1枚引く 【アタック強化】次のアタックのダメージ+30",
+    "leader": "ふらんしすこ",
+    "damage_boost": 30,
+    "on_play": "draw_1"
+  },
+  {
+    "id": "M005",
+    "name": "博聞強記",
+    "type": "MEMORIA",
+    "color": "Blue",
+    "cost": 1,
+    "text": "【プレイ時】カードを1枚引く 【アタック強化】次のアタックのダメージ+30",
+    "leader": "Kamito",
+    "damage_boost": 30,
+    "on_play": "draw_1"
+  },
+  {
+    "id": "M006",
+    "name": "運命のルーレット",
+    "type": "MEMORIA",
+    "color": "Blue",
+    "cost": 1,
+    "text": "【プレイ時】メモリアカードかアタックカードのどちらかを宣言し、自分のデッキの上から1枚を公開する。そのカードが宣言したカードタイプならカードを4枚引く。それ以外なら公開したカードをトラッシュに置く",
+    "leader": "渋谷ハル",
+    "on_play": "guess_draw_4"
+  },
+  {
+    "id": "M007",
+    "name": "運もミスもない",
+    "type": "MEMORIA",
+    "color": "Blue",
+    "cost": 1,
+    "text": "【プレイ時】自分のデッキの上から1枚を見る。そのカードをトラッシュに置いてもよい 【アタック強化】次のアタックのダメージ+10",
+    "leader": "白雪レイド",
+    "damage_boost": 10,
+    "on_play": "scry_1_trash"
+  },
+  {
+    "id": "M008",
+    "name": "BEAUTY SALON -HANABUSA-",
+    "type": "MEMORIA",
+    "color": "Blue",
+    "cost": 0,
+    "text": "【プレイ時】対戦相手のリーダー1体に20ダメージ",
+    "leader": "英リサ",
+    "on_play": "damage_20_enemy"
+  },
+  {
+    "id": "M009",
+    "name": "来てくれてありがとう",
+    "type": "MEMORIA",
+    "color": "Yellow",
+    "cost": 1,
+    "text": "【プレイ時】カードを2枚引く",
+    "leader": "胡桃のあ",
+    "on_play": "draw_2"
+  },
+  {
+    "id": "M010",
+    "name": "開店セレモニー",
+    "type": "MEMORIA",
+    "color": "Yellow",
+    "cost": 1,
+    "text": "【アタック強化】次のアタックのダメージ+20。プレイエリアにメモリアカードが3枚以上あるなら、さらにダメージ+50。（メモリアカードの数は【アタック強化】を実行するときに数える。）",
+    "leader": "ごっちゃん@マイキー",
+    "damage_boost": 20,
+    "conditional_boost": 50
+  },
+  {
+    "id": "M011",
+    "name": "777",
+    "type": "MEMORIA",
+    "color": "Yellow",
+    "cost": 0,
+    "text": "【アタック強化】プレイエリアにメモリアカードが3枚以上あるなら、次のアタックのダメージ+30。（メモリアカードの数は【アタック強化】を実行するときに数える。）",
+    "leader": "兎咲ミミ",
+    "damage_boost": 0,
+    "conditional_boost": 30
+  },
+  {
+    "id": "M012",
+    "name": "偶然の邂逅",
+    "type": "MEMORIA",
+    "color": "Yellow",
+    "cost": 1,
+    "text": "【アタック強化】次のアタックのダメージ+30 【アタック後】対戦相手の他のリーダーすべてに10ダメージ",
+    "leader": "VanilLa",
+    "damage_boost": 30
+  },
+  {
+    "id": "M013",
+    "name": "バトンを繋いで",
+    "type": "MEMORIA",
+    "color": "Green",
+    "cost": 1,
+    "text": "【アタック強化】次のアタックのダメージ+60",
+    "leader": "空澄セナ",
+    "damage_boost": 60
+  },
+  {
+    "id": "M014",
+    "name": "引っ張り合い",
+    "type": "MEMORIA",
+    "color": "Green",
+    "cost": 1,
+    "text": "プレイエリアに別の「引っ張り合い」が1枚あるなら、コストを支払わずにこのカードをプレイしてもよい。（2枚以上あるときはコストを支払う。） アタック強化】次のアタックのダメージ+40。",
+    "leader": "ありさか",
+    "damage_boost": 40
+  },
+  {
+    "id": "M015",
+    "name": "丸太椅子最",
+    "type": "MEMORIA",
+    "color": "Green",
+    "cost": 0,
+    "text": "【プレイ時】対戦相手のリーダー1体に20ダメージ",
+    "leader": "だるまいずごっど",
+    "on_play": "damage_20_enemy"
+  },
+  {
+    "id": "M016",
+    "name": "モラルからのハミダシ",
+    "type": "MEMORIA",
+    "color": "Green",
+    "cost": 1,
+    "text": "【プレイ時】すべてのプレイヤーはカードを1枚引く 【アタック強化】次のアタックのダメージ+50",
+    "leader": "nqrse",
+    "damage_boost": 50,
+    "on_play": "draw_all_1"
+  },
+  {
+    "id": "M017",
+    "name": "危機一髪",
+    "type": "MEMORIA",
+    "color": "Red",
+    "cost": 1,
+    "text": "【プレイ時】カードを2枚引く",
+    "leader": "Selly",
+    "on_play": "draw_2"
+  },
+  {
+    "id": "M018",
+    "name": "逃走成功",
+    "type": "MEMORIA",
+    "color": "Red",
+    "cost": 1,
+    "text": "【プレイ時】すべてのプレイヤーはカードを1枚引く 【アタック強化】次のアタックのダメージ+50",
+    "leader": "Mondo",
+    "damage_boost": 50,
+    "on_play": "draw_all_1"
+  },
+  {
+    "id": "M019",
+    "name": "汚部屋の住人",
+    "type": "MEMORIA",
+    "color": "Blue",
+    "cost": 1,
+    "text": "【アタック強化】次のアタックのダメージ+60",
+    "leader": "一ノ瀬うるは",
+    "damage_boost": 60
+  },
+  {
+    "id": "M020",
+    "name": "いつも安全運転",
+    "type": "MEMORIA",
+    "color": "Blue",
+    "cost": 1,
+    "text": "【プレイ時】カードを2枚引く",
+    "leader": "小雀とと",
+    "on_play": "draw_2"
+  },
+  {
+    "id": "M021",
+    "name": "優勝請負人",
+    "type": "MEMORIA",
+    "color": "Yellow",
+    "cost": 1,
+    "text": "【アタック強化】次のアタックのダメージ+60",
+    "leader": "Cpt",
+    "damage_boost": 60
+  },
+  {
+    "id": "M022",
+    "name": "小さなビデオレター",
+    "type": "MEMORIA",
+    "color": "Yellow",
+    "cost": 1,
+    "text": "【アタック強化】次のアタックのダメージ+50 【アタック後】対戦相手の他のリーダー1体に10ダメージ",
+    "leader": "Ras",
+    "damage_boost": 50
+  },
+  {
+    "id": "M023",
+    "name": "風紀チェック",
+    "type": "MEMORIA",
+    "color": "Green",
+    "cost": 1,
+    "text": "【アタック強化】次のアタックのダメージ+50 【アタック後】対戦相手の他のリーダー1体に10ダメージ",
+    "leader": "花芽すみれ",
+    "damage_boost": 50
+  },
+  {
+    "id": "M024",
+    "name": "なずNEWS",
+    "type": "MEMORIA",
+    "color": "Green",
+    "cost": 1,
+    "text": "【プレイ時】カードを2枚引く",
+    "leader": "花芽なずな",
+    "on_play": "draw_2"
+  },
+  {
+    "id": "M1000",
+    "name": "胴だよ胴！",
+    "type": "MEMORIA",
+    "color": "Red",
+    "cost": 1,
+    "text": "【アタック強化】次のアタックのダメージ+50",
+    "leader": "赤のリーダー1体以上",
+    "damage_boost": 50
+  },
+  {
+    "id": "M1001",
+    "name": "偉大な栄冠",
+    "type": "MEMORIA",
+    "color": "Red",
+    "cost": 2,
+    "text": "【アタック強化】次のアタックのダメージ+80",
+    "leader": "赤のリーダー1体以上",
+    "damage_boost": 80
+  },
+  {
+    "id": "M1002",
+    "name": "変わらない関係",
+    "type": "MEMORIA",
+    "color": "Red",
+    "cost": 1,
+    "text": "【アタック強化】次のアタックのダメージ+30 【アタック後】対戦相手の他のリーダー1体に、自分の「CR」を持つリーダー1体につき10ダメージ",
+    "leader": "赤のリーダー1体以上",
+    "ace": true,
+    "damage_boost": 30
+  },
+  {
+    "id": "M1003",
+    "name": "超新星",
+    "type": "MEMORIA",
+    "color": "Red",
+    "cost": 2,
+    "text": "【アタック強化】次のアタックのダメージ+30 【アタック後】このアタックを受けたリーダーがダウンしているなら、PPを2回復し、カードを1枚引く",
+    "leader": "赤のリーダー1体以上",
+    "ace": true,
+    "damage_boost": 30
+  },
+  {
+    "id": "M1004",
+    "name": "駆け引き上手",
+    "type": "MEMORIA",
+    "color": "Blue",
+    "cost": 1,
+    "text": "【アタック強化】次のアタックのダメージ+50",
+    "leader": "青のリーダー1体以上",
+    "damage_boost": 50
+  },
+  {
+    "id": "M1005",
+    "name": "苦難の昇格",
+    "type": "MEMORIA",
+    "color": "Blue",
+    "cost": 1,
+    "text": "【プレイ時】カードを2枚引き、手札を2枚捨てる 【アタック強化】次のアタックのダメージ+30",
+    "leader": "青のリーダー1体以上",
+    "damage_boost": 30,
+    "on_play": "draw_2_discard_2"
+  },
+  {
+    "id": "M1006",
+    "name": "ゾーン状態",
+    "type": "MEMORIA",
+    "color": "Blue",
+    "cost": 2,
+    "text": "【アタック強化】次のアタックのダメージ+80",
+    "leader": "青のリーダー1体以上",
+    "damage_boost": 80
+  },
+  {
+    "id": "M1007",
+    "name": "Never Fall",
+    "type": "MEMORIA",
+    "color": "Blue",
+    "cost": 1,
+    "text": "【プレイ時】カードを3枚引く",
+    "leader": "青のリーダー1体以上",
+    "ace": true,
+    "on_play": "draw_3"
+  },
+  {
+    "id": "M1008",
+    "name": "ツアーガイド",
+    "type": "MEMORIA",
+    "color": "Yellow",
+    "cost": 1,
+    "text": "【アタック強化】次のアタックのダメージ+50",
+    "leader": "黄のリーダー1体以上",
+    "damage_boost": 50
+  },
+  {
+    "id": "M1009",
+    "name": "花火づくり",
+    "type": "MEMORIA",
+    "color": "Yellow",
+    "cost": 1,
+    "text": "【プレイ時】カードを2枚引き、手札を2枚捨てる 【アタック強化】次のアタックのダメージ+30",
+    "leader": "黄のリーダー1体以上",
+    "damage_boost": 30,
+    "on_play": "draw_2_discard_2"
+  },
+  {
+    "id": "M1010",
+    "name": "福男",
+    "type": "MEMORIA",
+    "color": "Yellow",
+    "cost": 1,
+    "text": "【プレイ時】自分のリーダーが3体ダウンしているなら、カードを1枚引く 【アタック強化】次のアタックのダメージ+40",
+    "leader": "黄のリーダー1体以上",
+    "damage_boost": 40
+  },
+  {
+    "id": "M1011",
+    "name": "先導者の証",
+    "type": "MEMORIA",
+    "color": "Yellow",
+    "cost": 1,
+    "text": "【プレイ時】このターン、自分のリーダーすべての攻撃力を+30する",
+    "leader": "黄のリーダー1体以上",
+    "ace": true,
+    "on_play": "buff_leaders_30"
+  },
+  {
+    "id": "M1012",
+    "name": "喧嘩上等",
+    "type": "MEMORIA",
+    "color": "Green",
+    "cost": 1,
+    "text": "【アタック強化】次のアタックのダメージ+50",
+    "leader": "緑のリーダー1体以上",
+    "damage_boost": 50
+  },
+  {
+    "id": "M1013",
+    "name": "登頂成功",
+    "type": "MEMORIA",
+    "color": "Green",
+    "cost": 1,
+    "text": "【プレイ時】自分のリーダーが3体ダウンしているなら、カードを1枚引く 【アタック強化】次のアタックのダメージ+40",
+    "leader": "緑のリーダー1体以上",
+    "damage_boost": 40
+  },
+  {
+    "id": "M1014",
+    "name": "面接官",
+    "type": "MEMORIA",
+    "color": "Green",
+    "cost": 1,
+    "text": "【プレイ時】自分のリーダー1体を30回復する 【アタック強化】次のアタックのダメージ+30",
+    "leader": "緑のリーダー1体以上",
+    "damage_boost": 30,
+    "on_play": "heal_leader_30"
+  },
+  {
+    "id": "M1015",
+    "name": "初の栄冠",
+    "type": "MEMORIA",
+    "color": "Green",
+    "cost": 1,
+    "text": "【アタック強化】次のアタックのダメージ+30 【アタック後】対戦相手の他のリーダー1体に、自分の「VSPO!」を持つリーダー1体につき10ダメージ",
+    "leader": "緑のリーダー1体以上",
+    "ace": true,
+    "damage_boost": 30
+  },
+  {
+    "id": "M1016",
+    "name": "勝利へのジャンプ",
+    "type": "MEMORIA",
+    "color": "Green",
+    "cost": 3,
+    "text": "【プレイ時】対戦相手のリーダーすべてに50ダメージ",
+    "leader": "緑のリーダー1体以上",
+    "ace": true,
+    "on_play": "damage_50_all_enemy"
+  }
+]

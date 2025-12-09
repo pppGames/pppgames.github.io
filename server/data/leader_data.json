@@ -1,0 +1,514 @@
+{
+    "leaders": [
+        {
+            "id": "L001",
+            "type": "LEADER",
+            "name": "うるか",
+            "color": "Red",
+            "team": "CR",
+            "hp_before": 100,
+            "atk_before": 30,
+            "hp_after": 130,
+            "atk_after": 40,
+            "ability": {
+                "trigger": "awaken",
+                "effect": [
+                    {
+                        "type": "damage",
+                        "target": "opponent_all_leaders",
+                        "value": 10
+                    }
+                ]
+            }
+        },
+        {
+            "id": "L002",
+            "type": "LEADER",
+            "name": "小森めと",
+            "color": "Red",
+            "team": "VSPO!",
+            "hp_before": 100,
+            "atk_before": 30,
+            "hp_after": 130,
+            "atk_after": 40,
+            "ability": {
+                "trigger": "awaken",
+                "effect": [
+                    {
+                        "type": "damage",
+                        "target": "opponent_one_leader",
+                        "value": 20
+                    }
+                ]
+            }
+        },
+        {
+            "id": "L003",
+            "type": "LEADER",
+            "name": "橘ひなの",
+            "color": "Red",
+            "team": "VSPO!",
+            "hp_before": 110,
+            "atk_before": 30,
+            "hp_after": 140,
+            "atk_after": 40,
+            "ability": {
+                "trigger": "awaken",
+                "effect": [
+                    {
+                        "type": "draw",
+                        "value": 2
+                    },
+                    {
+                        "type": "discard",
+                        "value": 2
+                    }
+                ]
+            }
+        },
+        {
+            "id": "L004",
+            "type": "LEADER",
+            "name": "ふらんしすこ",
+            "color": "Red",
+            "team": "CR",
+            "hp_before": 100,
+            "atk_before": 30,
+            "hp_after": 130,
+            "atk_after": 40,
+            "ability": {
+                "trigger": "awaken",
+                "effect": [
+                    {
+                        "type": "draw",
+                        "value": 1
+                    }
+                ]
+            }
+        },
+        {
+            "id": "L005",
+            "type": "LEADER",
+            "name": "Kamito",
+            "color": "Blue",
+            "team": "None",
+            "hp_before": 100,
+            "atk_before": 30,
+            "hp_after": 130,
+            "atk_after": 40,
+            "ability": {
+                "trigger": "awaken",
+                "effect": [
+                    {
+                        "type": "draw",
+                        "value": 1
+                    }
+                ]
+            }
+        },
+        {
+            "id": "L006",
+            "type": "LEADER",
+            "name": "渋谷ハル",
+            "color": "Blue",
+            "team": "Neo-Porte",
+            "hp_before": 100,
+            "atk_before": 30,
+            "hp_after": 130,
+            "atk_after": 40,
+            "ability": {
+                "trigger": "awaken",
+                "effect": [
+                    {
+                        "type": "damage",
+                        "target": "opponent_all_leaders",
+                        "value": 10
+                    }
+                ]
+            }
+        },
+        {
+            "id": "L007",
+            "type": "LEADER",
+            "name": "白雪レイド",
+            "color": "Blue",
+            "team": "Neo-Porte",
+            "hp_before": 110,
+            "atk_before": 30,
+            "hp_after": 140,
+            "atk_after": 40,
+            "ability": {
+                "trigger": "awaken",
+                "effect": [
+                    {
+                        "type": "draw",
+                        "value": 2
+                    },
+                    {
+                        "type": "discard",
+                        "value": 2
+                    }
+                ]
+            }
+        },
+        {
+            "id": "L008",
+            "type": "LEADER",
+            "name": "英リサ",
+            "color": "Blue",
+            "team": "VSPO!",
+            "hp_before": 110,
+            "atk_before": 30,
+            "hp_after": 140,
+            "atk_after": 40,
+            "ability": {
+                "trigger": "awaken",
+                "effect": [
+                    {
+                        "type": "heal",
+                        "target": "own_leader_one",
+                        "value": 20
+                    }
+                ]
+            }
+        },
+        {
+            "id": "L009",
+            "type": "LEADER",
+            "name": "胡桃のあ",
+            "color": "Yellow",
+            "team": "VSPO!",
+            "hp_before": 110,
+            "atk_before": 30,
+            "hp_after": 140,
+            "atk_after": 40,
+            "ability": {
+                "trigger": "awaken",
+                "effect": [
+                    {
+                        "type": "heal",
+                        "target": "own_leader_one",
+                        "value": 20
+                    }
+                ]
+            }
+        },
+        {
+            "id": "L010",
+            "type": "LEADER",
+            "name": "ごっちゃん@マイキー",
+            "color": "Yellow",
+            "team": "CR",
+            "hp_before": 110,
+            "atk_before": 30,
+            "hp_after": 140,
+            "atk_after": 40,
+            "ability": {
+                "trigger": "awaken",
+                "effect": [
+                    {
+                        "type": "draw",
+                        "value": 2
+                    },
+                    {
+                        "type": "discard",
+                        "value": 2
+                    }
+                ]
+            }
+        },
+        {
+            "id": "L011",
+            "type": "LEADER",
+            "name": "兎咲ミミ",
+            "color": "Yellow",
+            "team": "VSPO!",
+            "hp_before": 110,
+            "atk_before": 30,
+            "hp_after": 140,
+            "atk_after": 40,
+            "ability": {
+                "trigger": "awaken",
+                "effect": [
+                    {
+                        "type": "damage",
+                        "target": "opponent_one_leader",
+                        "value": 10
+                    }
+                ]
+            }
+        },
+        {
+            "id": "L012",
+            "type": "LEADER",
+            "name": "VanilLa",
+            "color": "Yellow",
+            "team": "CR",
+            "hp_before": 100,
+            "atk_before": 30,
+            "hp_after": 130,
+            "atk_after": 40,
+            "ability": {
+                "trigger": "awaken",
+                "effect": [
+                    {
+                        "type": "draw",
+                        "value": 1
+                    }
+                ]
+            }
+        },
+        {
+            "id": "L013",
+            "type": "LEADER",
+            "name": "空澄セナ",
+            "color": "Green",
+            "team": "VSPO!",
+            "hp_before": 110,
+            "atk_before": 30,
+            "hp_after": 140,
+            "atk_after": 40,
+            "ability": {
+                "trigger": "awaken",
+                "effect": [
+                    {
+                        "type": "draw",
+                        "value": 2
+                    },
+                    {
+                        "type": "discard",
+                        "value": 2
+                    }
+                ]
+            }
+        },
+        {
+            "id": "L014",
+            "type": "LEADER",
+            "name": "ありさか",
+            "color": "Green",
+            "team": "CR",
+            "hp_before": 100,
+            "atk_before": 30,
+            "hp_after": 130,
+            "atk_after": 40,
+            "ability": {
+                "trigger": "awaken",
+                "effect": [
+                    {
+                        "type": "draw",
+                        "value": 1
+                    }
+                ]
+            }
+        },
+        {
+            "id": "L015",
+            "type": "LEADER",
+            "name": "だるまいずごっど",
+            "color": "Green",
+            "team": "CR",
+            "hp_before": 100,
+            "atk_before": 30,
+            "hp_after": 130,
+            "atk_after": 40,
+            "ability": {
+                "trigger": "awaken",
+                "effect": [
+                    {
+                        "type": "damage",
+                        "target": "opponent_one_leader",
+                        "value": 20
+                    }
+                ]
+            }
+        },
+        {
+            "id": "L016",
+            "type": "LEADER",
+            "name": "nqrse",
+            "color": "Green",
+            "team": "None",
+            "hp_before": 110,
+            "atk_before": 30,
+            "hp_after": 140,
+            "atk_after": 40,
+            "ability": {
+                "trigger": "awaken",
+                "effect": [
+                    {
+                        "type": "damage",
+                        "target": "opponent_one_leader",
+                        "value": 10
+                    }
+                ]
+            }
+        },
+        {
+            "id": "L017",
+            "type": "LEADER",
+            "name": "Selly",
+            "color": "Red",
+            "team": "CR",
+            "hp_before": 110,
+            "atk_before": 30,
+            "hp_after": 140,
+            "atk_after": 40,
+            "ability": {
+                "trigger": "awaken",
+                "effect": [
+                    {
+                        "type": "damage",
+                        "target": "opponent_one_leader",
+                        "value": 10
+                    }
+                ]
+            }
+        },
+        {
+            "id": "L018",
+            "type": "LEADER",
+            "name": "Mondo",
+            "color": "Red",
+            "team": "CR",
+            "hp_before": 110,
+            "atk_before": 30,
+            "hp_after": 140,
+            "atk_after": 40,
+            "ability": {
+                "trigger": "awaken",
+                "effect": [
+                    {
+                        "type": "heal",
+                        "target": "own_leader_one",
+                        "value": 20
+                    }
+                ]
+            }
+        },
+        {
+            "id": "L019",
+            "type": "LEADER",
+            "name": "一ノ瀬うるは",
+            "color": "Blue",
+            "team": "VSPO!",
+            "hp_before": 100,
+            "atk_before": 30,
+            "hp_after": 130,
+            "atk_after": 40,
+            "ability": {
+                "trigger": "awaken",
+                "effect": [
+                    {
+                        "type": "draw",
+                        "value": 1
+                    }
+                ]
+            }
+        },
+        {
+            "id": "L020",
+            "type": "LEADER",
+            "name": "小雀とと",
+            "color": "Blue",
+            "team": "VSPO!",
+            "hp_before": 110,
+            "atk_before": 30,
+            "hp_after": 140,
+            "atk_after": 40,
+            "ability": {
+                "trigger": "awaken",
+                "effect": [
+                    {
+                        "type": "damage",
+                        "target": "opponent_one_leader",
+                        "value": 10
+                    }
+                ]
+            }
+        },
+        {
+            "id": "L021",
+            "type": "LEADER",
+            "name": "Cpt",
+            "color": "Yellow",
+            "team": "CR",
+            "hp_before": 100,
+            "atk_before": 30,
+            "hp_after": 130,
+            "atk_after": 40,
+            "ability": {
+                "trigger": "awaken",
+                "effect": [
+                    {
+                        "type": "draw",
+                        "value": 1
+                    }
+                ]
+            }
+        },
+        {
+            "id": "L022",
+            "type": "LEADER",
+            "name": "Ras",
+            "color": "Yellow",
+            "team": "CR",
+            "hp_before": 100,
+            "atk_before": 30,
+            "hp_after": 130,
+            "atk_after": 40,
+            "ability": {
+                "trigger": "awaken",
+                "effect": [
+                    {
+                        "type": "damage",
+                        "target": "opponent_one_leader",
+                        "value": 10
+                    }
+                ]
+            }
+        },
+        {
+            "id": "L023",
+            "type": "LEADER",
+            "name": "花芽すみれ",
+            "color": "Green",
+            "team": "VSPO!",
+            "hp_before": 100,
+            "atk_before": 30,
+            "hp_after": 130,
+            "atk_after": 40,
+            "ability": {
+                "trigger": "awaken",
+                "effect": [
+                    {
+                        "type": "damage",
+                        "target": "opponent_one_leader",
+                        "value": 10
+                    }
+                ]
+            }
+        },
+        {
+            "id": "L024",
+            "type": "LEADER",
+            "name": "花芽なずな",
+            "color": "Green",
+            "team": "VSPO!",
+            "hp_before": 110,
+            "atk_before": 30,
+            "hp_after": 140,
+            "atk_after": 40,
+            "ability": {
+                "trigger": "awaken",
+                "effect": [
+                    {
+                        "type": "heal",
+                        "target": "own_leader_one",
+                        "value": 20
+                    }
+                ]
+            }
+        }
+    ]
+}
